@@ -8,7 +8,7 @@ app.use(express.json());
 // Basic endpoint
 app.get("/", (req, res) => {
   res.json({
-    message: "Node API is running!",
+    message: "Node API is running! its version 2 now testion the overall actioin in one go ",
   });
 });
 
